@@ -11,7 +11,7 @@
 <body>
     <div class="index">
         <h1>Barquitos.com</h1>
-        <form action="/View/realizarLogin.php" method="post">
+        <form action="View/realizarLogin.php" method="post">
             
             <label style="color: aliceblue;" for="email">Email:</label>
             <input type="email" id="email" name="email" required><br>
