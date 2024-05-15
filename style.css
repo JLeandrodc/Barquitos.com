@@ -1,0 +1,247 @@
+/* Estilos para as cores do site */
+.cor {
+    color: #00ffcc; /* Azul principal */
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilos para o formulário principal */
+.form_CADASTRO {
+    border: none;
+    border-radius: 10px;
+    width: 600px;
+    background-color: #ffffffe0; /* Cor de fundo azul claro */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 83.66vh; /* Define a altura para 100% da altura da janela do navegador */
+}
+
+
+/* Estilos para as etiquetas (labels) no formulário principal */
+.form_CADASTRO label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilos para as listas no formulário principal */
+.form_CADASTRO select {
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00000051; 
+    border-radius: 5px;
+}
+/* Estilos para os campos de entrada no formulário principal */
+.form_CADASTRO input, .form_CADASTRO textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00000051; 
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+}
+
+/* Estilos para o botão de envio no formulário principal */
+.form_CADASTRO input[type="submit"] {
+    background-color: #007BFF; /* Cor de fundo azul principal */
+    color: #FFF; /* Cor do texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+/* Estilos para o botão de envio no formulário principal ao passar o mouse */
+.form_CADASTRO input[type="submit"]:hover {
+    background-color: #009879; /* Cor de fundo azul ao passar o mouse */
+}
+
+/* Estilos para os botões no formulário principal */
+.form_CADASTRO button {
+    background-color: #009879; /* Cor de fundo azul principal */
+    color: #FFF; /* Cor do texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para os botões no formulário principal ao passar o mouse */
+.form_CADASTRO button:hover {
+    background-color: #023b30; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Estilos para o formulário de atualização */
+.form_update {
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #F2F5F9;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: auto;
+}
+
+/* Estilos para os formulários */
+.form_update form {
+    display: inline-block;
+}
+
+.form_update select {
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0000004a;
+    border-radius: 5px;
+}
+
+/* Estilos para os campos de entrada no formulário de atualização */
+.form_update input, .form_update textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0000004a;
+    border-radius: 5px;
+    width: 200px;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Estilos universais*/
+header {
+    background-color: #449a86;
+    color: #fff;/* Texto branco */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+ 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+main {
+    padding: 20px;
+}
+
+/* Estilos para inputs e textareas com bordas arredondadas */
+input, textarea {
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('./src/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative; /* Define a posição como relativa para permitir o uso do ::before */
+}
+
+body::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com transparência */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca a camada abaixo da imagem de fundo */
+}
+
+/* Estilos para o botão de envio no formulário de atualização */
+input[type="submit"] {
+    background-color: #009879;
+    color: #FFF;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+/* Estilos para o botão de envio no formulário de atualização ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #023b30;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Estilos para o formulário da index */
+.index {
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #00000000; /* Cor de fundo azul claro */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 92vh; /* Define a altura para 100% da altura da janela do navegador */
+}
+
+.index button {
+    background-color: #009879; /* Cor de fundo azul principal */
+    color: #FFF; /* Cor do texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para os botões no formulário principal ao passar o mouse */
+.index button:hover {
+    background-color: #023b30; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+.index h1 {
+    color: #fff;
+    font-size: 8vw; /* Tamanho de letra ajustado para ocupar toda a tela horizontalmente como em trailers */
+    font-family: 'Times New Roman', serif; /* Use uma fonte semelhante à Times por ser mais bonita */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra mais pronunciada ao texto */
+    background: rgba(1, 119, 93, 0.114); /* Fundo semi-transparente para legibilidade */
+    padding: 20px; /* Espaçamento interno para maior destaque */
+    border-radius: 10px; /* Cantos arredondados (bordinhas) */
+    margin: 0; /* Remove margens padrão */
+}
+
+.index input{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00000051;
+    border-radius: 5px;
+}
